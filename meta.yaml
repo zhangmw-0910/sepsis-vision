@@ -1,0 +1,17 @@
+# patch: /path/to/GRAZPEDWRI-DX/data  骨骼异常 骨损伤 异物 骨折 金属 骨膜反应 旋前肌症 软组织 文字
+path: '../datasets/data'
+train: 'images/train'
+val: 'images/valid'
+test: 'images/test'
+
+nc: 9
+names:
+  0: boneanomaly
+  1: bonelesion
+  2: foreignbody
+  3: fracture
+  4: metal
+  5: periostealreaction
+  6: pronatorsign
+  7: softtissue
+  8: text
